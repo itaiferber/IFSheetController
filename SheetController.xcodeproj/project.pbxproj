@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0E593413D14B7200DE8E39 /* IFSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E593013D14B7200DE8E39 /* IFSheetController.m */; };
+		5C0E593513D14B7200DE8E39 /* MAZeroingWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E593313D14B7200DE8E39 /* MAZeroingWeakRef.m */; };
+		5C0E594413D151ED00DE8E39 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E594313D151ED00DE8E39 /* README.markdown */; };
 		5C9E892F13D14AF500ACA2A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E892E13D14AF500ACA2A3 /* Cocoa.framework */; };
 		5C9E893913D14AF500ACA2A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E893713D14AF500ACA2A3 /* InfoPlist.strings */; };
 		5C9E893B13D14AF500ACA2A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E893A13D14AF500ACA2A3 /* main.m */; };
@@ -16,17 +19,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0E592F13D14B7200DE8E39 /* IFSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSheetController.h; sourceTree = "<group>"; };
+		5C0E593013D14B7200DE8E39 /* IFSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSheetController.m; sourceTree = "<group>"; };
+		5C0E593113D14B7200DE8E39 /* IFSheetControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSheetControllerDelegate.h; sourceTree = "<group>"; };
+		5C0E593213D14B7200DE8E39 /* MAZeroingWeakRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAZeroingWeakRef.h; sourceTree = "<group>"; };
+		5C0E593313D14B7200DE8E39 /* MAZeroingWeakRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAZeroingWeakRef.m; sourceTree = "<group>"; };
+		5C0E594313D151ED00DE8E39 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
 		5C9E892A13D14AF500ACA2A3 /* SheetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9E892E13D14AF500ACA2A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5C9E893113D14AF500ACA2A3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5C9E893213D14AF500ACA2A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5C9E893313D14AF500ACA2A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5C9E893613D14AF500ACA2A3 /* SheetController-Info.plist */ = {isa = PBXFileReference; path = "SheetController-Info.plist"; sourceTree = "<group>"; };
+		5C9E893613D14AF500ACA2A3 /* SheetController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SheetController-Info.plist"; sourceTree = "<group>"; };
 		5C9E893813D14AF500ACA2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C9E893A13D14AF500ACA2A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C9E893C13D14AF500ACA2A3 /* SheetController-Prefix.pch */ = {isa = PBXFileReference; path = "SheetController-Prefix.pch"; sourceTree = "<group>"; };
+		5C9E893C13D14AF500ACA2A3 /* SheetController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SheetController-Prefix.pch"; sourceTree = "<group>"; };
 		5C9E893E13D14AF500ACA2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5C9E894013D14AF500ACA2A3 /* SheetControllerAppDelegate.h */ = {isa = PBXFileReference; path = SheetControllerAppDelegate.h; sourceTree = "<group>"; };
+		5C9E894013D14AF500ACA2A3 /* SheetControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetControllerAppDelegate.h; sourceTree = "<group>"; };
 		5C9E894113D14AF500ACA2A3 /* SheetControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetControllerAppDelegate.m; sourceTree = "<group>"; };
 		5C9E894413D14AF500ACA2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +93,11 @@
 			children = (
 				5C9E894013D14AF500ACA2A3 /* SheetControllerAppDelegate.h */,
 				5C9E894113D14AF500ACA2A3 /* SheetControllerAppDelegate.m */,
+				5C0E592F13D14B7200DE8E39 /* IFSheetController.h */,
+				5C0E593013D14B7200DE8E39 /* IFSheetController.m */,
+				5C0E593113D14B7200DE8E39 /* IFSheetControllerDelegate.h */,
+				5C0E593213D14B7200DE8E39 /* MAZeroingWeakRef.h */,
+				5C0E593313D14B7200DE8E39 /* MAZeroingWeakRef.m */,
 				5C9E894313D14AF500ACA2A3 /* MainMenu.xib */,
 				5C9E893513D14AF500ACA2A3 /* Supporting Files */,
 			);
@@ -93,6 +107,7 @@
 		5C9E893513D14AF500ACA2A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C0E594313D151ED00DE8E39 /* README.markdown */,
 				5C9E893613D14AF500ACA2A3 /* SheetController-Info.plist */,
 				5C9E893713D14AF500ACA2A3 /* InfoPlist.strings */,
 				5C9E893A13D14AF500ACA2A3 /* main.m */,
@@ -155,6 +170,7 @@
 				5C9E893913D14AF500ACA2A3 /* InfoPlist.strings in Resources */,
 				5C9E893F13D14AF500ACA2A3 /* Credits.rtf in Resources */,
 				5C9E894513D14AF500ACA2A3 /* MainMenu.xib in Resources */,
+				5C0E594413D151ED00DE8E39 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +183,8 @@
 			files = (
 				5C9E893B13D14AF500ACA2A3 /* main.m in Sources */,
 				5C9E894213D14AF500ACA2A3 /* SheetControllerAppDelegate.m in Sources */,
+				5C0E593413D14B7200DE8E39 /* IFSheetController.m in Sources */,
+				5C0E593513D14B7200DE8E39 /* MAZeroingWeakRef.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +306,7 @@
 				5C9E894A13D14AF500ACA2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
